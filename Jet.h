@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //DRIVINGSIMULATOR_CAR_H
+#endif //DRIVINGSIMULATOR_JET_H
