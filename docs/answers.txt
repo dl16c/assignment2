@@ -32,3 +32,9 @@ g) git log --all --grep="file"
 h)  i)   The mechanism of basing an object or class upon another object or class, retaining similar implementation.
     ii)  The provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types.
     iii) The bundling of data with the methods that operate on that data, or the restricting of direct access to some of an objects components.
+
+5) OOP Principles
+a) The driving simulator is using encapsulation since all of our variables in our classes need get and set functions to view or change.
+The increases security and makes it harder to change variable values illegally.
+The driving simulator is also using polymorphism since our Vehicles (ex. Skateboard, Bicycle, Car) all end up inheriting from the class Vehicle directly or indirectly.
+For example Jet inherits from PoweredVehicle which inherits from Vehicle.
