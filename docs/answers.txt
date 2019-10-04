@@ -1,0 +1,34 @@
+a)
+PS C:\Users\danie\Documents\GitHub\assignment2> git commit -m "added git status info to status.txt"
+[master fc00dd3] added git status info to status.txt
+ 1 file changed, 9 insertions(+)
+ create mode 100644 docs/status.txt
+PS C:\Users\danie\Documents\GitHub\assignment2> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 539 bytes | 539.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/dl16c/assignment2.git
+   cb04331..fc00dd3  master -> master
+
+b) 9 total commits, used "git log"
+
+c) 9 days ago, "git log -1 --pretty="format:%cr" .\.gitignore"
+
+d) Testing new features without affecting the main code that may already be working. 
+Escpecially when these new features go in and change code that already works.
+Integrating changes, that may be difficult and error prone is another good reason to use branches.
+
+e) git status shows changes in your local code compared to the code that is pushed and commited
+    git log shows commited snapshots
+
+f) git log --follow -- Vehicle.h
+
+g) git log --all --grep="file"
+
+h)  i)   The mechanism of basing an object or class upon another object or class, retaining similar implementation.
+    ii)  The provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types.
+    iii) The bundling of data with the methods that operate on that data, or the restricting of direct access to some of an objects components.
